@@ -9,7 +9,7 @@ package tpn8;
  *
  * @author LuisPc-Master
  */
-public class Matriz {
+public class Matriz { 
 
     public void armar() {
         int x[][];
