@@ -9,35 +9,11 @@ package tpn8;
  *
  * @author LuisPc-Master
  */
-public class Matriz { 
+public class Matriz {
 
     public void armar() {
-        int x[][];
 
-        x = new int[4][];
-
-        x[0] = new int[4];
-        x[1] = new int[3];
-        x[2] = new int[5];
-        x[3] = new int[2];
-
-        x[0][0] = 3;
-        x[0][1] = 6;
-        x[0][2] = 9;
-        x[0][3] = 12;
-
-        x[1][0] = 15;
-        x[1][1] = 18;
-        x[1][2] = 21;
-
-        x[2][0] = 24;
-        x[2][1] = 27;
-        x[2][2] = 30;
-        x[2][3] = 33;
-        x[2][4] = 36;
-
-        x[3][0] = 39;
-        x[3][1] = 42;
+        int[][] x = {{3, 6, 9, 12}, {15, 18, 21}, {24, 27, 30, 33, 36}, {39, 42}};
 
         for (int filas = 0; filas < x.length; filas++) {
 
